@@ -2,6 +2,8 @@
 
 Single-page website for Amazon Warriors Brazilian Jiu-Jitsu, San Antonio, TX.
 
+Live: https://amazonwarriorsbjj.com (Cloudflare Pages: https://amazonwarriorsbjj.pages.dev)
+
 ## Stack
 - Static HTML/CSS/JS, single file (`index.html`), no build step
 - Fonts: Oswald + Source Sans 3 (Google Fonts)
@@ -11,7 +13,7 @@ Single-page website for Amazon Warriors Brazilian Jiu-Jitsu, San Antonio, TX.
 1. Cloudflare Dashboard → Workers & Pages → Create → Pages → Connect to Git
 2. Select this repo, production branch `main`
 3. Build command: *(none)* · Build output directory: `/`
-4. Custom domains → add the school domain, follow the DNS prompts
+4. Custom domains → add `amazonwarriorsbjj.com` and `www.amazonwarriorsbjj.com`
 
 Every push to `main` redeploys automatically.
 
